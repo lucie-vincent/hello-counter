@@ -1,30 +1,25 @@
-# React + TypeScript + Vite
+# Projet Tutoriel React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projet guidé en suivant le *[React Tutorial for Beginners](https://www.youtube.com/watch?v=SqcY0GlETPk)* de **Programming with Mosh** 
 
-Currently, two official plugins are available:
+## Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ce tutoriel m'a permis de découvrir les composants React, les hook useState et les gestionnaires d'événement en construisant une petite application interactive.
 
-## Expanding the ESLint configuration
+## Objectifs
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Découvrir les composants React : Comprendre comment créer et utiliser des composants fonctionnels dans React.
+- Apprendre le hook useState : Gérer l'état au sein des composants en utilisant le hook useState.
+- Gérer les événements : Implémenter des gestionnaires d'événements pour gérer les interactions utilisateur.
+- Surligner l'élément cliqué de la liste : Afficher une liste où l'élément cliqué est surligné.
+- Afficher/fermer une alerte avec un bouton : Ajouter un bouton pour afficher et masquer un message d'alerte.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Utilisées
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- React : Une bibliothèque JavaScript pour construire des interfaces utilisateur.
+- TypeScript : Un sur-ensemble typé de JavaScript qui se compile en JavaScript pur.
+- Vite : Un outil de build rapide pour les projets web modernes.
+- Bootstrap : Un framework CSS pour créer des sites web responsifs et "mobile-first".
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
